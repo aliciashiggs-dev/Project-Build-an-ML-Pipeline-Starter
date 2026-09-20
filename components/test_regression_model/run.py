@@ -2,13 +2,20 @@
 """
 This step takes the best model, tagged with the "prod" tag, and tests it against the test dataset
 """
+import sys
+import os
+
+# Explicitly add local components directory to Python's search path
+PROJECT_COMPONENTS_PATH = "/home/alici/Project-Build-an-ML-Pipeline-Starter/components"
+if PROJECT_COMPONENTS_PATH not in sys.path:
+    sys.path.append(PROJECT_COMPONENTS_PATH)
+
 import argparse
 import logging
 import wandb
 import mlflow
 import pandas as pd
 from sklearn.metrics import mean_absolute_error
-
 from wandb_utils.log_artifact import log_artifact
 
 

@@ -179,3 +179,7 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+## Project Links
+* **GitHub Repository:** [aliciashiggs-dev/Project-Build-an-ML-Pipeline-Starter](https://github.com/aliciashiggs-dev/Project-Build-an-ML-Pipeline-Starter)
+* **Weights & Biases Project:** [W&B Dashboard](https://wandb.ai) *(replace with your exact project link)*

@@ -1,0 +1,29 @@
+{
+  "os":  "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python":  "CPython 3.9.23",
+  "startedAt":  "2026-09-13T18:52:51.354544Z",
+  "args":  [
+    "src/data_check/test_data.py"
+  ],
+  "program":  "/home/alici/miniconda3/envs/nyc_airbnb/bin/pytest",
+  "git":  {
+    "remote":  "https://github.com/aliciashiggs-dev/Project-Build-an-ML-Pipeline-Starter",
+    "commit":  "7fecc8cf50c197da52c100517f05b1f55c2c7c0d"
+  },
+  "email":  "aliciashiggs@gmail.com",
+  "root":  "/home/alici/Project-Build-an-ML-Pipeline-Starter",
+  "host":  "AliciaLaptop",
+  "executable":  "/home/alici/miniconda3/envs/nyc_airbnb/bin/python3.9",
+  "cpu_count":  10,
+  "cpu_count_logical":  20,
+  "disk":  {
+    "/":  {
+      "total":  "1081101176832",
+      "used":  "8324415488"
+    }
+  },
+  "memory":  {
+    "total":  "16603836416"
+  },
+  "writerId":  "ziuza67wlc4bpodmzovt2iss00cqcm3x"
+}

@@ -1,0 +1,61 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            utvdnq2obbtah737eew0tqmwc6zt87nd:
+                args:
+                    - --input_artifact
+                    - sample.csv:latest
+                    - --output_artifact
+                    - clean_sample
+                    - --output_type
+                    - cleaned_data
+                    - --output_description
+                    - Cleaned Airbnb sample data
+                    - --min_price
+                    - "10"
+                    - --max_price
+                    - "350"
+                codePath: src/basic_cleaning/run.py
+                codePathLocal: src/basic_cleaning/run.py
+                cpu_count: 10
+                cpu_count_logical: 20
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "8314888192"
+                email: aliciashiggs@gmail.com
+                executable: /home/alici/miniconda3/envs/nyc_airbnb/bin/python
+                git:
+                    commit: 7fecc8cf50c197da52c100517f05b1f55c2c7c0d
+                    remote: https://github.com/aliciashiggs-dev/Project-Build-an-ML-Pipeline-Starter
+                host: AliciaLaptop
+                memory:
+                    total: "16603836416"
+                os: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+                program: /home/alici/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py
+                python: CPython 3.9.23
+                root: /home/alici/Project-Build-an-ML-Pipeline-Starter
+                startedAt: "2026-09-13T18:49:52.292554Z"
+                writerId: utvdnq2obbtah737eew0tqmwc6zt87nd
+        m: []
+        python_version: 3.9.23
+        t:
+            "3":
+                - 24
+            "4": 3.9.23
+            "5": 0.26.1
+            "12": 0.26.1
+            "13": linux-x86_64
+input_artifact:
+    value: sample.csv:latest
+max_price:
+    value: 350
+min_price:
+    value: 10
+output_artifact:
+    value: clean_sample
+output_description:
+    value: Cleaned Airbnb sample data
+output_type:
+    value: cleaned_data

@@ -1,0 +1,49 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            q679zi7vn14doufvnhxdzvv18tizbs7f:
+                args:
+                    - --mlflow_model
+                    - random_forest_export:prod
+                    - --test_dataset
+                    - test_data.csv:latest
+                codePath: components/test_regression_model/run.py
+                codePathLocal: run.py
+                cpu_count: 10
+                cpu_count_logical: 20
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "13180362752"
+                email: aliciashiggs@gmail.com
+                executable: /home/alici/miniconda3/envs/mlflow-80e64512092dbd8bd73ac8713c4c071f13224c58/bin/python
+                git:
+                    commit: 5fc28e6883e4cd01cd7155ce22b8ca621d8afa4e
+                    remote: https://github.com/aliciashiggs-dev/Project-Build-an-ML-Pipeline-Starter.git
+                host: AliciaLaptop
+                memory:
+                    total: "16603836416"
+                os: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+                program: /home/alici/Project-Build-an-ML-Pipeline-Starter/components/test_regression_model/run.py
+                python: CPython 3.13.15
+                root: /home/alici/Project-Build-an-ML-Pipeline-Starter/components/test_regression_model
+                startedAt: "2026-09-13T22:39:19.280415Z"
+                writerId: q679zi7vn14doufvnhxdzvv18tizbs7f
+        m: []
+        python_version: 3.13.15
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "4": 3.13.15
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64
+mlflow_model:
+    value: random_forest_export:prod
+test_dataset:
+    value: test_data.csv:latest

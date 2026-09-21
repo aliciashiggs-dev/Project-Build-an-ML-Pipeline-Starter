@@ -1,0 +1,48 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            uj5gp1r0puocfc9wdrhpsogp5dergr8y:
+                args:
+                    - --cache-clear
+                    - src/data_check/
+                    - --csv=nyc_airbnb:latest
+                    - --ref=clean_sample:latest
+                    - --kl_threshold=0.1
+                    - --min_price=10
+                    - --max_price=1000
+                cpu_count: 10
+                cpu_count_logical: 20
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "8330461184"
+                email: aliciashiggs@gmail.com
+                executable: /home/alici/miniconda3/envs/nyc_airbnb/bin/python3.9
+                git:
+                    commit: 7fecc8cf50c197da52c100517f05b1f55c2c7c0d
+                    remote: https://github.com/aliciashiggs-dev/Project-Build-an-ML-Pipeline-Starter
+                host: AliciaLaptop
+                memory:
+                    total: "16603836416"
+                os: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+                program: /home/alici/miniconda3/envs/nyc_airbnb/bin/pytest
+                python: CPython 3.9.23
+                root: /home/alici/Project-Build-an-ML-Pipeline-Starter
+                startedAt: "2026-09-13T19:12:48.264703Z"
+                writerId: uj5gp1r0puocfc9wdrhpsogp5dergr8y
+        m: []
+        python_version: 3.9.23
+        t:
+            "1":
+                - 50
+            "2":
+                - 50
+            "3":
+                - 5
+                - 24
+                - 62
+            "4": 3.9.23
+            "5": 0.26.1
+            "12": 0.26.1
+            "13": linux-x86_64
